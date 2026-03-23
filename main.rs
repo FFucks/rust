@@ -1,5 +1,6 @@
 mod variables;
 mod control_flow;
+mod ownership;
 
 fn main() {
     println!("== Variables ==");
@@ -7,4 +8,7 @@ fn main() {
 
     println!("\n== Control Flow ==");
     control_flow::run();
+
+    println!("\n== Ownership ==");
+    ownership::run();
 }
