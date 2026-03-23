@@ -1,6 +1,7 @@
 mod variables;
 mod control_flow;
 mod ownership;
+mod structs;
 
 fn main() {
     println!("== Variables ==");
@@ -11,4 +12,7 @@ fn main() {
 
     println!("\n== Ownership ==");
     ownership::run();
+
+    println!("\n== Structs ==");
+    structs::run();
 }
