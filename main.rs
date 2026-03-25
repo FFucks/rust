@@ -5,6 +5,9 @@ mod structs;
 mod enums;
 
 fn main() {
+
+    println!("Hello, world!");
+
     println!("== Variables ==");
     variables::run();
 
